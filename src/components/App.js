@@ -1,6 +1,6 @@
-import "./App.css";
 import "./landing/Header";
 import "./landing/Avatar";
+import "./App.css";
 
 function App() {
   return (

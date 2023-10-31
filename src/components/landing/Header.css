@@ -1,3 +1,9 @@
 .App-header {
-  color: black;
+  background-color: #1556d8;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
