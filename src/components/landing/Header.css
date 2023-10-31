@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../../fonts/Kanit/Kanit-Black.ttf") format("ttf");
+}
+
 .App-header {
   background-color: #1556d8;
   min-height: 100vh;

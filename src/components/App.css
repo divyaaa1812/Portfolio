@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: "Kanit", sans-serif;
+  /* font-family: 'Syne', sans-serif; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
