@@ -1,5 +1,5 @@
-import "./landing/Header";
-import "./landing/Avatar";
+import Header from "./landing/Header";
+import Avatar from "./landing/Avatar";
 import "./App.css";
 
 function App() {
