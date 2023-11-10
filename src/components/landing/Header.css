@@ -1,14 +1,10 @@
 @font-face {
-  font-family: "Roboto Condensed";
+  font-family: "Kanit";
   src: url("../../fonts/Kanit/Kanit-Black.ttf") format("ttf");
 }
 
 .App-header {
-  background-color: #1556d8;
-  min-height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  /* font-size: calc(10px + 2vmin); */
 }
