@@ -1,32 +1,45 @@
 .nav {
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
 }
 
 .nav__links {
   list-style-type: none;
   display: flex;
-  margin-top: 30px;
-  margin-right: 80px;
-  margin-bottom: 0px;
-  padding-left: 0px;
+  align-items: center;
   column-gap: 20px;
+  padding: 0px;
 }
 
 .nav__link {
-  color: #fff;
-  font-weight: 500;
   text-decoration: none;
+  font-family: "Syne-bold";
+  color: #9098a1;
 }
 
 .nav__link:hover {
-  /* -webkit-transition: color 1s ease;
-  -moz-transition: color 1s ease;
-  -o-transition: color 1s ease; */
   transition: color 1s ease;
-  color: #27ba8e;
+  color: #51ab90;
 }
 
 .github-image {
   width: 30px;
+  height: 30px;
+}
+
+.linkedin-image {
+  width: 30px;
+  height: 30px;
+}
+
+.social_links {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.social__link {
+  padding: 10px;
 }

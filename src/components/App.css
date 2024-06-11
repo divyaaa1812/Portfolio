@@ -1,25 +1,19 @@
 @font-face {
-  font-family: "Syne";
+  font-family: "Syne", sans-serif;
   src: url("../fonts/Syne/static/Syne-Regular.ttf") format("ttf");
 }
 
-.App {
-  background-color: #141b25;
-  /* font-family: "Kanit", sans-serif; */
-  /* font-family: "Syne", sans-serif; */
+@font-face {
+  font-family: "Syne-bold", sans-serif;
+  src: url("../fonts/Syne/static/Syne-Bold.ttf") format("ttf");
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+@font-face {
+  font-family: "Syne-medium", sans-serif;
+  src: url("../fonts/Syne/static/Syne-Medium.ttf") format("ttf");
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  font-family: "Syne", sans-serif;
+  background-color: #141b25;
 }

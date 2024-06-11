@@ -2,6 +2,7 @@
 import React from "react";
 import "./Navbar.css";
 import githubIcon from "../../images/github.png";
+import linkedinIcon from "../../images/linkedin.png";
 
 function Navbar() {
   return (
@@ -34,11 +35,23 @@ function Navbar() {
         </li>
       </ul>
       <ul className="social_links">
-        <li>
-          <a className="social__link" href="">
-            <img className="github-image" src={githubIcon} alt="Github Icon" />
-          </a>
-        </li>
+        <a className="social__link" href="https://github.com/divyaaa1812">
+          <img
+            className="github-image"
+            src={githubIcon}
+            alt="click to navigate Github profile"
+          />
+        </a>
+        <a
+          className="social__link"
+          href="https://www.linkedin.com/in/divyabharathi-badugu/"
+        >
+          <img
+            className="linkedin-image"
+            src={linkedinIcon}
+            alt="click to navigate linkedin profile"
+          />
+        </a>
       </ul>
     </nav>
   );
