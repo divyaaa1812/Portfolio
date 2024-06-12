@@ -70,6 +70,25 @@
   color: #27ba8e;
 }
 
+/* Custom CSS for arrow buttons */
+.arrow-buttons {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.arrow {
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  color: #666; /* Hover color */
+}
+
 /* Custom CSS for dots container */
 .dots-container {
   display: flex;

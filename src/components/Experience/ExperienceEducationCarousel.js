@@ -62,6 +62,16 @@ const ExperienceEducationCarousel = () => {
     setCurrentIndex(index);
   };
 
+  const goToNextSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
+  };
+
+  const goToPreviousSlide = () => {
+    setCurrentIndex(
+      (prevIndex) => (prevIndex - 1 + items.length) % items.length
+    );
+  };
+
   const isExperience = currentIndex < experienceItems.length;
 
   return (
@@ -97,14 +107,22 @@ const ExperienceEducationCarousel = () => {
             </>
           )}
         </div>
-        <div className="dots-container">
-          {items.map((_, index) => (
-            <button
-              key={index}
-              className={`dot ${index === currentIndex ? "active" : ""}`}
-              onClick={() => goToSlide(index)}
-            ></button>
-          ))}
+        <div className="arrow-buttons">
+          <button onClick={goToPreviousSlide} className="arrow prev">
+            &lt;
+          </button>
+          <div className="dots-container">
+            {items.map((_, index) => (
+              <button
+                key={index}
+                className={`dot ${index === currentIndex ? "active" : ""}`}
+                onClick={() => goToSlide(index)}
+              ></button>
+            ))}
+          </div>
+          <button onClick={goToNextSlide} className="arrow next">
+            &gt;
+          </button>
         </div>
       </section>
     </>
