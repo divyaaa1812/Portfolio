@@ -1,0 +1,36 @@
+.about {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.about__info {
+  width: 50%;
+}
+
+.about__info-title {
+  color: #fff;
+}
+.about__info-description {
+  color: #9098a1;
+}
+
+.about__info-workwithme-btn {
+  background-color: #27ba8e;
+  text-decoration: none;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  width: 20%;
+  cursor: pointer;
+  color: #fff;
+  padding: 0px;
+  font-family: "Syne-medium";
+  font-size: 15px;
+}
+
+.about__image {
+  border-radius: 50%;
+}

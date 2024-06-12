@@ -1,24 +1,30 @@
 import React from "react";
-import "./Aboutme.css";
+import "./AboutMe.css";
+import profileimage from "../../images/1717652771884.jpg";
 
 const AboutMe = () => {
   return (
-    <main className="about">
-      <img src={profileimage} alt="divya's profile" className="about_img" />
-      <div className="about-info">
-        <h3 className="about__title">
-          Hello! I Am <span className="about-name">Divya</span>
-        </h3>
-        <h2 className="about__subtitle">I'm a Software Engineer</h2>
-        <p className="about__description">
-          I'm an accomplished React frontend developer with more than 3 years of
-          professional experience. My expertise contains back-end and front-end
-          development using React.js, express.js, MongoDb. I'm seeking to help
-          company develop their product, as well as grow and improve my skills.
+    <section className="about" id="about-section">
+      <div className="about__info">
+        <h2 className="about__info-title">Let's get know about me closer</h2>
+        <p className="about__info-description">
+          I'm an aspiring Frontend Developer with a strong foundation in Quality
+          Assurance (QA). With a passion for creating visually appealing and
+          highly functional web applications, I combine my keen eye for detail
+          from my QA background with my love for innovative design and seamless
+          user experiences.
         </p>
-        <button className="contact-btn">GET IN TOUCH</button>
+        <p className="about__info-description">
+          My journey into the world of web development began with my work in QA,
+          where I honed my skills in identifying bugs, ensuring software
+          quality, and understanding the user’s perspective. This experience has
+          given me a unique insight into the importance of delivering flawless
+          and user-friendly applications.
+        </p>
+        <button className="about__info-workwithme-btn">WORK WITH ME</button>
       </div>
-    </main>
+      <img src={profileimage} className="about__image"></img>
+    </section>
   );
 };
 

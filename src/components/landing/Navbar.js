@@ -9,18 +9,18 @@ function Navbar() {
     <nav class="nav">
       <ul className="nav__links">
         <li>
-          <a className="nav__link" href="/">
+          <a className="nav__link" href="#home-section">
             HOME
           </a>
         </li>
         <li>
-          <a className="nav__link" href="/aboutme">
+          <a className="nav__link" href="#about-section">
             ABOUT ME
           </a>
         </li>
         <li>
-          <a className="nav__link" href="/experience">
-            EXPERIENCE
+          <a className="nav__link" href="#experience-section">
+            MY EXPERIENCE
           </a>
         </li>
         <li>

@@ -4,7 +4,7 @@ import profileimage from "../../images/divya-pic.png";
 
 const Home = () => {
   return (
-    <main className="main-container">
+    <section className="main-container" id="home-section">
       <img src={profileimage} alt="divya's profile" className="main__img" />
       <div className="profile-info">
         <h3 className="profile__title">
@@ -19,7 +19,7 @@ const Home = () => {
         </p>
         <button className="contact-btn">GET IN TOUCH</button>
       </div>
-    </main>
+    </section>
   );
 };
 
