@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2992abe9.css",
+    "main.js": "/static/js/main.fff53dbd.js",
+    "static/media/divya-pic.png": "/static/media/divya-pic.4c3cc9bbfad36f4e4a75.png",
+    "static/media/Kanit-Black.ttf": "/static/media/Kanit-Black.ff456266a65e712bce54.ttf",
+    "static/media/avatar.png": "/static/media/avatar.d265ab8fd25b5ca20bee.png",
+    "static/media/github.png": "/static/media/github.bf201b18158a9164410a.png",
+    "static/media/Syne-Bold.ttf": "/static/media/Syne-Bold.4f7a3ab12ddb09781520.ttf",
+    "static/media/Syne-Medium.ttf": "/static/media/Syne-Medium.767c33d27d5f99f3ed3e.ttf",
+    "static/media/Syne-Regular.ttf": "/static/media/Syne-Regular.edc4ef9dce61eb376e9b.ttf",
+    "static/media/linkedin.png": "/static/media/linkedin.ef1a3e4264a475c93607.png",
+    "static/media/1717652771884.jpg": "/static/media/1717652771884.d9fd55787ce6e9155e7e.jpg",
+    "index.html": "/index.html",
+    "main.2992abe9.css.map": "/static/css/main.2992abe9.css.map",
+    "main.fff53dbd.js.map": "/static/js/main.fff53dbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2992abe9.css",
+    "static/js/main.fff53dbd.js"
+  ]
+}
