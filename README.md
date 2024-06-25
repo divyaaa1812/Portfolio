@@ -10,7 +10,7 @@ This portfolio webpage serves as a showcase of my work, skills, and projects. It
 
 ## Features
 
-- **Project Showcase:** Display of my projects with brief descriptions and links to live demos or GitHub repositories.
+- **Project Showcase:** Display of my projects with brief descriptions and links to GitHub repositories.
 - **Responsive Design:** Ensures the webpage looks great on all devices, from desktops to mobile phones.
 - **Contact Form:** Option for visitors to contact me directly through the webpage.
 
