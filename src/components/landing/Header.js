@@ -6,7 +6,6 @@ import Avatar from "./Avatar";
 function Header() {
   return (
     <header className="App-header">
-      <Avatar />
       <Navbar />
     </header>
   );

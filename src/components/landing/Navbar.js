@@ -24,12 +24,12 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a className="nav__link" href="/projects">
+          <a className="nav__link" href="#project-section">
             PROJECTS
           </a>
         </li>
         <li>
-          <a className="nav__link" href="/contact">
+          <a className="nav__link" href="#contactme-section">
             CONTACT ME
           </a>
         </li>

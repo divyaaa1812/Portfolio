@@ -4,11 +4,11 @@ import "./ExperienceEducationCarousel.css";
 const ExperienceEducationCarousel = () => {
   const experienceItems = [
     {
-      title: "Student",
-      company: "Tripleten Software Development Bootcamp",
-      period: "Jan 2023 - Current",
+      title: "Externship",
+      company: "Drops care",
+      period: "May 2023 - Current",
       description:
-        "I am a dynamic and results-driven bootcamp graduate with a passion for web development. Having recently completed an intensive software web development bootcamp, I've acquired a diverse skill set and am eager to apply my knowledge to real-world projects. With a background in Software quality assurance, I've found my true passion in web development and am dedicated to growing my skills and creating engaging user experiences.In addition to bootcamp studies, I've gained practical experience through externship.",
+        "Having recently completed an intensive software web development bootcamp, I've acquired a diverse skill set and am eager to apply my knowledge to real-world projects. With a background in Software quality assurance, I've found my true passion in web development and am dedicated to growing my skills and creating engaging user experiences.In addition to bootcamp studies, I've gained practical experience through externship.",
     },
     {
       title: "Software Development Engineer in Test",
@@ -76,7 +76,7 @@ const ExperienceEducationCarousel = () => {
 
   return (
     <>
-      <section className="carousel-container" id="experience-section">
+      <section className="carousel" id="experience-section">
         <div className="carousel-items">
           {isExperience ? (
             <>
@@ -87,7 +87,7 @@ const ExperienceEducationCarousel = () => {
               </h1>
               <h3>
                 {items[currentIndex].title} at{" "}
-                <span className="comapny-text">
+                <span className="company-text">
                   {items[currentIndex].company}
                 </span>
               </h3>

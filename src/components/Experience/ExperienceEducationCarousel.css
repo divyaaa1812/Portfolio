@@ -1,4 +1,4 @@
-.carousel-container {
+.carousel {
   display: flex;
   gap: 20px;
   padding: 20px;
@@ -9,7 +9,7 @@
 
 .carousel-items {
   color: #fff;
-  width: 60%;
+  width: 70%;
 }
 
 .carousel-item {
@@ -72,34 +72,28 @@
 
 /* Custom CSS for arrow buttons */
 .arrow-buttons {
-  width: 60%;
   display: flex;
-  justify-content: space-around;
 }
 
 .arrow {
-  background-color: #fff;
   border: none;
   border-radius: 50%;
-  font-size: 24px;
   cursor: pointer;
+  color: #fff;
+  background-color: transparent;
 }
 
 .arrow:hover {
-  color: #666; /* Hover color */
+  color: #27ba8e; /* Hover color */
 }
 
 /* Custom CSS for dots container */
 .dots-container {
   display: flex;
-  justify-content: center;
-  margin-top: 10px; /* Adjust margin as needed */
 }
 
 /* Style for individual dot */
 .dot {
-  width: 10px;
-  height: 10px;
   border-radius: 50%;
   margin: 0 5px; /* Adjust margin as needed */
   cursor: pointer;

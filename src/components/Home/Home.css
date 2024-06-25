@@ -12,11 +12,11 @@
 
 .main__img {
   border-radius: 50%;
-  width: 15%;
+  max-width: 250px;
 }
 
 .profile-info {
-  width: 50%;
+  max-width: 600px;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -40,12 +40,10 @@
   background-color: #27ba8e;
   text-decoration: none;
   border: none;
-  height: 40px;
   border-radius: 20px;
-  width: 20%;
   cursor: pointer;
-  color: #fff;
-  padding: 0px;
+  padding: 10px;
   font-family: "Syne-medium";
   font-size: 15px;
+  color: #fff;
 }

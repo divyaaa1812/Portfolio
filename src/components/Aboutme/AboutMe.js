@@ -21,7 +21,7 @@ const AboutMe = () => {
           given me a unique insight into the importance of delivering flawless
           and user-friendly applications.
         </p>
-        <button className="about__info-workwithme-btn">WORK WITH ME</button>
+        {/* <button className="about__info-workwithme-btn">WORK WITH ME</button> */}
       </div>
       <img src={profileimage} className="about__image"></img>
     </section>
