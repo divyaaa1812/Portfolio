@@ -1,5 +1,3 @@
-# News Explorer
-
 ### Overview
 
 - About the project
