@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Kanit";
+  src: url("../../fonts/Kanit/Kanit-Black.ttf") format("ttf");
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

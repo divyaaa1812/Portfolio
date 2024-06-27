@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Syne", sans-serif;
+  src: url("../fonts/Syne/static/Syne-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Syne-bold", sans-serif;
+  src: url("../fonts/Syne/static/Syne-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Syne-medium", sans-serif;
+  src: url("../fonts/Syne/static/Syne-Medium.ttf") format("ttf");
+}
+
+.App {
+  font-family: "Syne", sans-serif;
+  background-color: #141b25;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}

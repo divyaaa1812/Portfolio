@@ -1,0 +1,106 @@
+.carousel {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-items {
+  color: #fff;
+  width: 70%;
+}
+
+.carousel-item {
+  color: #373d45;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0px;
+}
+
+.carousel-text {
+  color: #27ba8e;
+  margin: 0;
+}
+
+.carousel-item.experience {
+  color: #27ba8e;
+  padding: 0px;
+  text-decoration: underline;
+}
+
+.carousel-items p {
+  color: #9098a1;
+}
+
+.carousel-item.education {
+  color: #27ba8e;
+  padding: 0px;
+  text-decoration: underline;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 10px;
+}
+
+.nav-button:hover {
+  color: #ccc;
+}
+
+.nav-button:first-of-type {
+  left: 0;
+}
+
+.nav-button:last-of-type {
+  right: 0;
+}
+
+.comapny-text {
+  color: #27ba8e;
+}
+
+/* Custom CSS for arrow buttons */
+.arrow-buttons {
+  display: flex;
+}
+
+.arrow {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  background-color: transparent;
+}
+
+.arrow:hover {
+  color: #27ba8e; /* Hover color */
+}
+
+/* Custom CSS for dots container */
+.dots-container {
+  display: flex;
+}
+
+/* Style for individual dot */
+.dot {
+  border-radius: 50%;
+  margin: 0 5px; /* Adjust margin as needed */
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+/* Style for active dot */
+.dot.active {
+  background-color: #27ba8e; /* Active color */
+}
