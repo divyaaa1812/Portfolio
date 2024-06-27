@@ -24,7 +24,7 @@ const AboutMe = () => {
         {/* button to commenyt out */}
         {/* <button className="about__info-workwithme-btn">WORK WITH ME</button> */}
       </div>
-      <img src={profileimage} className="about__image"></img>
+      <img src={profileimage} className="about__image" alt = "Divya's profile"></img>
     </section>
   );
 };
