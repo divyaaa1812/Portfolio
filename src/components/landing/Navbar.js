@@ -1,12 +1,17 @@
 // src/components/Navbar.js
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import githubIcon from "../../images/github.png";
 import linkedinIcon from "../../images/linkedin.png";
 
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
-    <nav class="nav">
+    <nav class="nav-desktop">
       <ul className="nav__links">
         <li>
           <a className="nav__link" href="#home-section">

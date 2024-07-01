@@ -6,10 +6,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 30px;
 }
 
 .email-link {
   text-decoration: none;
   color: #fff;
+}
+
+.contactme {
+  padding: 20px;
 }

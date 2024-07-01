@@ -2,8 +2,8 @@
   display: flex;
   gap: 20px;
   align-items: center;
+  padding: 20px 0;
   justify-content: center;
-  padding: 20px;
 }
 
 .about__info {

@@ -3,8 +3,44 @@
   src: url("../../fonts/Kanit/Kanit-Black.ttf") format("ttf");
 }
 
+.hamburger {
+  display: none;
+}
 .App-header {
+  height: 50px;
   display: flex;
   justify-content: space-around;
+  padding: 10px 20px;
   align-items: center;
+}
+
+.App-header-name {
+  color: #fff;
+  margin: 0px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .App-header-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .social-link-container {
+    display: flex;
+  }
+
+  .social-link-image {
+    width: 30px;
+    height: 30px;
+  }
 }
