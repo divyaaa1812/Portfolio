@@ -19,7 +19,7 @@ const Home = () => {
         <h3 className="profile__title">
           Hello! I Am <span className="profile-name">Divya</span>
         </h3>
-        <h2 className="profile__subtitle">I'm a Software Engineer</h2>
+        <h2 className="profile__subtitle">I'm a Frontend Developer</h2>
         <p className="profile__description">
           I'm an accomplished React frontend developer with more than 3 years of
           professional experience. My expertise contains back-end and front-end

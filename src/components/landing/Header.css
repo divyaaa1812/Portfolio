@@ -20,6 +20,10 @@
   text-decoration: none;
   font-size: 30px;
 }
+.App-header-name:hover {
+  transition: color 1s ease;
+  color: #27ba8e;
+}
 
 @media only screen and (max-width: 768px) {
   .hamburger {
