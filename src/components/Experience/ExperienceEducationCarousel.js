@@ -4,7 +4,7 @@ import "./ExperienceEducationCarousel.css";
 const ExperienceEducationCarousel = () => {
   const experienceItems = [
     {
-      title: "Externship",
+      title: "Frontend UI Developer",
       company: "Drops care",
       period: "May 2023 - Current",
       description:
@@ -32,7 +32,7 @@ const ExperienceEducationCarousel = () => {
         "Extensive experience in utilizing Selenium WebDriver to automate testing processes and ensure the quality and reliability of software applications. Expertise in test automation tools and frameworks, with a focus on Selenium WebDriver",
     },
     {
-      title: "Software Test Analyst",
+      title: "QA Analyst",
       company: "Infosys",
       period: "Sep 2015 - July 2017",
       description:
