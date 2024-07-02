@@ -48,3 +48,10 @@
   text-decoration: none;
   width: 150px;
 }
+
+@media only screen and (max-width: 768px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

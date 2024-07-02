@@ -14,14 +14,18 @@
 }
 
 .App-header-name {
-  color: #fff;
-  margin: 0px;
   text-decoration: none;
-  font-size: 30px;
+  background-color: #27ba8e;
+  border-radius: 50%;
+  padding: 15px;
+  color: #fff;
 }
-.App-header-name:hover {
-  transition: color 1s ease;
-  color: #27ba8e;
+
+.App-header-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
@@ -31,12 +35,6 @@
     height: 24px;
     cursor: pointer;
     padding: 10px;
-  }
-
-  .App-header-mobile {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
   }
   .social-link-container {
     display: flex;

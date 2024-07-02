@@ -5,11 +5,6 @@ import githubIcon from "../../images/github.png";
 import linkedinIcon from "../../images/linkedin.png";
 
 function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
   return (
     <nav class="nav-desktop">
       <ul className="nav__links">

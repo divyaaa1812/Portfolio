@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import Navbar from "./Navbar";
-import Avatar from "./Avatar";
+import Avatar from "../../images/avatar.png";
 import NavbarMobile from "./NavbarMobile";
 import menu from "../../images/menu.svg";
 import close from "../../images/close.svg";
@@ -17,7 +17,7 @@ function Header() {
   return (
     <header className="App-header">
       <a className="App-header-name" href="#">
-        Divya Bharathi
+        DB
       </a>
       <div className="social-link-container">
         <ul className="social_links-mobile">
