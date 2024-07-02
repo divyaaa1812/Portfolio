@@ -4,7 +4,6 @@
   padding: 10px 20px;
   position: relative;
   flex-direction: column;
-  align-items: center;
 }
 
 .carousel-items {
@@ -73,6 +72,7 @@
 /* Custom CSS for arrow buttons */
 .arrow-buttons {
   display: flex;
+  justify-content: center;
 }
 
 .arrow {

@@ -53,6 +53,11 @@ const ExperienceEducationCarousel = () => {
       institution: "Jawaharlal Nehru Technological University",
       graduated: "2007 - 2011",
     },
+    {
+      degree: "Software Web development Bootcamp",
+      institution: "Tripleten",
+      graduated: "2023 - 2024",
+    },
   ];
 
   const items = [...experienceItems, ...educationItems];
