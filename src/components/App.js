@@ -17,8 +17,8 @@ function App() {
         <ExperienceEducationCarousel />
         <Projects />
         <ContactMe />
-        <Footer />
       </main>
+      <Footer />
     </div>
   );
 }

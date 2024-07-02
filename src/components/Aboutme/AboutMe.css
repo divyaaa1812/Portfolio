@@ -2,12 +2,11 @@
   display: flex;
   gap: 20px;
   align-items: center;
-  padding: 20px 0;
-  justify-content: center;
+  padding: 10px 20px;
 }
 
 .about__info {
-  max-width: 600px;
+  padding: 10px;
 }
 
 .about__info-title {
@@ -31,6 +30,7 @@
 
 .about__image {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
 }
