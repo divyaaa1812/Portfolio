@@ -25,11 +25,13 @@
 .github-image {
   width: 30px;
   height: 30px;
+  border-radius: 10px;
 }
 
 .linkedin-image {
   width: 30px;
   height: 30px;
+  border-radius: 5px;
 }
 
 .social_links {
