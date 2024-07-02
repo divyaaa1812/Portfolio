@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3e0cce56.css",
-    "main.js": "/Portfolio/static/js/main.28a3a7d6.js",
+    "main.css": "/Portfolio/static/css/main.199e62e7.css",
+    "main.js": "/Portfolio/static/js/main.505ac118.js",
     "static/media/divya-pic.png": "/Portfolio/static/media/divya-pic.4c3cc9bbfad36f4e4a75.png",
     "static/media/divyaprofile.png": "/Portfolio/static/media/divyaprofile.68711baa4fcf87fff375.png",
     "static/media/Kanit-Black.ttf": "/Portfolio/static/media/Kanit-Black.ff456266a65e712bce54.ttf",
@@ -12,13 +12,14 @@
     "static/media/Syne-Regular.ttf": "/Portfolio/static/media/Syne-Regular.edc4ef9dce61eb376e9b.ttf",
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.ef1a3e4264a475c93607.png",
     "index.html": "/Portfolio/index.html",
+    "static/media/fb.svg": "/Portfolio/static/media/fb.57e2641c9134fba2581abc190f32db02.svg",
     "static/media/close.svg": "/Portfolio/static/media/close.f3a8ffd4b69ddd751b23791a8b7e318f.svg",
     "static/media/menu.svg": "/Portfolio/static/media/menu.0a6ddfdbe436047db1e6efac25300f09.svg",
-    "main.3e0cce56.css.map": "/Portfolio/static/css/main.3e0cce56.css.map",
-    "main.28a3a7d6.js.map": "/Portfolio/static/js/main.28a3a7d6.js.map"
+    "main.199e62e7.css.map": "/Portfolio/static/css/main.199e62e7.css.map",
+    "main.505ac118.js.map": "/Portfolio/static/js/main.505ac118.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e0cce56.css",
-    "static/js/main.28a3a7d6.js"
+    "static/css/main.199e62e7.css",
+    "static/js/main.505ac118.js"
   ]
 }
