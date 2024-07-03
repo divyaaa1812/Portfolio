@@ -14,7 +14,7 @@ const Home = () => {
   };
   return (
     <section className="main-container" id="home-section">
-      <img src={profileimage} alt="divya's profile" className="main__img" />
+      {/* <img src={profileimage} alt="divya's profile" className="main__img" /> */}
       <div className="profile-info">
         <h3 className="profile__title">
           Hello! I Am <span className="profile-name">Divya</span>
