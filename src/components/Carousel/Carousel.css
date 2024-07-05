@@ -1,0 +1,76 @@
+.carousel-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-items {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 0px 20px;
+  transition: opacity 0.5s ease;
+  visibility: hidden; /* Initially hide all items */
+  color: #9098a1;
+}
+
+.carousel-item.active {
+  visibility: visible; /* Show active item */
+  position: absolute;
+}
+
+.carousel-text {
+  color: #27ba8e;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.company-text {
+  color: #27ba8e;
+}
+
+.arrow-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  background-color: transparent;
+  font-size: 2rem;
+}
+
+.arrow:hover {
+  color: #27ba8e;
+}
+
+p {
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.arrow.prev {
+  left: 10px;
+}
+
+.arrow.next {
+  right: 10px;
+}

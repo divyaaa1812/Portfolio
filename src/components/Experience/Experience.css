@@ -1,4 +1,4 @@
-.carousel {
+/* .carousel {
   display: flex;
   gap: 20px;
   padding: 10px 20px;
@@ -64,43 +64,6 @@
 .nav-button:last-of-type {
   right: 0;
 }
-
-.comapny-text {
-  color: #27ba8e;
-}
+ */
 
 /* Custom CSS for arrow buttons */
-.arrow-buttons {
-  display: flex;
-  justify-content: center;
-}
-
-.arrow {
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  color: #fff;
-  background-color: transparent;
-}
-
-.arrow:hover {
-  color: #27ba8e; /* Hover color */
-}
-
-/* Custom CSS for dots container */
-.dots-container {
-  display: flex;
-}
-
-/* Style for individual dot */
-.dot {
-  border-radius: 50%;
-  margin: 0 5px; /* Adjust margin as needed */
-  cursor: pointer;
-  border: 1px solid black;
-}
-
-/* Style for active dot */
-.dot.active {
-  background-color: #27ba8e; /* Active color */
-}

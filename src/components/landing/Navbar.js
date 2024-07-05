@@ -6,7 +6,7 @@ import linkedinIcon from "../../images/linkedin.png";
 
 function Navbar() {
   return (
-    <nav class="nav-desktop">
+    <nav className="nav-desktop">
       <ul className="nav__links">
         <li>
           <a className="nav__link" href="#home-section">
