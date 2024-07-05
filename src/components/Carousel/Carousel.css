@@ -66,11 +66,3 @@ p {
 h3 {
   margin: 0;
 }
-
-.arrow.prev {
-  left: 10px;
-}
-
-.arrow.next {
-  right: 10px;
-}

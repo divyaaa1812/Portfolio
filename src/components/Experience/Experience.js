@@ -5,11 +5,12 @@ const Experience = () => {
   const experienceItems = [
     {
       type: "experience",
-      title: "UI Developer",
+      title: "Front-end Developer",
       company: "Drops care",
       period: "May 2023 - Current",
-      description:
-        "Having recently completed an intensive software web development bootcamp, I've acquired a diverse skill set and am eager to apply my knowledge to real-world projects. With a background in Software quality assurance, I've found my true passion in web development and am dedicated to growing my skills and creating engaging user experiences.In addition to bootcamp studies, I've gained practical experience through externship.",
+      description: [
+        "- Designed and built a sophisticated numeric input field component using TypeScript and React, featuring integrated increase and decrease buttons for intuitive data manipulation.",
+      ],
     },
     {
       type: "experience",
