@@ -6,7 +6,7 @@ const Experience = () => {
   const experienceItems = [
     {
       type: "experience",
-      title: "Frontend UI Developer",
+      title: "UI Developer",
       company: "Drops care",
       period: "May 2023 - Current",
       description:
