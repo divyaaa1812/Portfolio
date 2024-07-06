@@ -6,13 +6,13 @@ const Education = () => {
     {
       type: "education",
       degree: "Software Web development Bootcamp",
-      institution: "Tripleten",
+      institution: "TripleTen, USA",
       graduated: "2023 - 2024",
     },
     {
       type: "education",
       degree: "Bachelor of Technology, Computer Science",
-      institution: "Jawaharlal Nehru Technological University",
+      institution: "Jawaharlal Nehru Technological University, India",
       graduated: "2007 - 2011",
     },
   ];
