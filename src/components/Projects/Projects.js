@@ -10,7 +10,7 @@ const Projects = () => {
       weblink: "https://github.com/divyaaa1812/news-explorer-app-frontend",
       description:
         "The News Explorer web application revolutionizes the way users stay informed by providing a sophisticated platform for discovering, saving, and exploring news articles from around the globe.With an intuitive user interface and powerful search capabilities, users can effortlessly browse through a vast array of news sources, topics, and trends.",
-      technologies: ["React", "Node.js", "MongoDB"],
+      technologies: ["React", "Node.js"],
     },
     {
       type: "project",
