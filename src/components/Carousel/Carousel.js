@@ -33,7 +33,9 @@ const Carousel = ({ items }) => {
                 <p>{item.period}</p>
                 <ul>
                   {item.description.map((point, index) => (
-                    <li key={index}>{point}</li>
+                    <li className="bulletpoint" key={index}>
+                      {point}
+                    </li>
                   ))}
                 </ul>
                 {/* <p className="description">{item.description}</p> */}

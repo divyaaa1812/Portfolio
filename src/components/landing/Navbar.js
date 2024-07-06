@@ -20,7 +20,7 @@ function Navbar() {
         </li>
         <li>
           <a className="nav__link" href="#experience-section">
-            MY EXPERIENCE
+            EXPERIENCE
           </a>
         </li>
         <li>
