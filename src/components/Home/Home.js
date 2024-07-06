@@ -28,9 +28,9 @@ const Home = () => {
           languages come together to form beautiful websites.
         </p>
         <p className="profile__description">
-          I've recently graduated from TripleTen's web developement bootcamp
-          with a focus on React, Node.js. During my time there, I collaborated
-          on projects that not only enhanced my technical proficiency but also
+          I've recently graduated from TripleTen's web development bootcamp with
+          a focus on React, Node.js. During my time there, I collaborated on
+          projects that not only enhanced my technical proficiency but also
           emphasized the significance of delivering top-notch solutions that
           surpass user expectations
         </p>
