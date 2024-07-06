@@ -5,52 +5,63 @@ const Experience = () => {
   const experienceItems = [
     {
       type: "experience",
-      title: "Front-end Developer",
-      company: "Drops care",
-      period: "May 2023 - Current",
+      title: "Software Development Engineer in Test",
+      company: "Walmart labs",
+      period: "Feb 2024 - Current",
       description: [
-        "- Designed and built a sophisticated numeric input field component using TypeScript and React, featuring integrated increase and decrease buttons for intuitive data manipulation.",
+        "Developed automated test scripts using typescript to test web applications, resulting in a 30% reduction in testing time",
+        "Collaborate closely with developers and product managers in an Agile environment to ensure comprehensive test coverage for new features",
       ],
     },
     {
       type: "experience",
-      title: "Software Development Engineer in Test",
-      company: "Walmart labs",
-      period: "Feb 2024 - Current",
-      description:
-        "Skilled and dedicated Software Development Engineer in Test (SDET) with a passion for ensuring the quality and reliability of software products. With a strong background in software engineering and a focus on testing methodologies and automation, I excel at designing and implementing effective testing strategies to deliver high-quality software solutions.",
+      title: "Front-end Developer",
+      company: "Drops care",
+      period: "May 2023 - June 2024",
+      description: [
+        "Designed and built a sophisticated numeric input field component using TypeScript and React, featuring integrated increase and decrease buttons for intuitive data manipulation.",
+        "Created a flexible button component with TypeScript enums for improved UI consistency and maintenance",
+      ],
     },
     {
       type: "experience",
       title: "QA Automation Engineer",
       company: "Plume Design,Inc",
       period: "May 2021 - Jan 2024",
-      description:
-        "Proficiency in programming languages such as Java, Kotlin(for Android), Swift (for iOS).Expertise in mobile test automation frameworks like Appium, Espresso (for Android), XCUITest (for iOS).",
+      description: [
+        "Worked on android mobile app testing using Espresso with Kotlin which significantly boosted test coverage and expedited release cycles",
+        "Led API endpoint testing on iOS and Android, improving integration and backend understanding for front-end work",
+      ],
     },
     {
       type: "experience",
       title: "Sr. Software QA Engineer",
       company: "Fujitsu Inc",
       period: "July 2018 - Dec 2018",
-      description:
-        "Extensive experience in utilizing Selenium WebDriver to automate testing processes and ensure the quality and reliability of software applications. Expertise in test automation tools and frameworks, with a focus on Selenium WebDriver",
+      description: [
+        "Contributed to automation testing using Selenium WebDriver and JavaScript with focus on functionality and performance across diverse browsers and platforms",
+        "Collaborated with frontend developers for responsive design testing which ensured optimal user experience across various devices and screen sizes",
+      ],
     },
     {
       type: "experience",
       title: "QA Analyst",
       company: "Infosys",
       period: "Sep 2015 - July 2017",
-      description:
-        "With a strong background in software testing methodologies and techniques, I excel at designing and executing comprehensive test plans, identifying and documenting defects, and collaborating with cross-functional teams to deliver high-quality products on time",
+      description: [
+        "With a strong background in software testing methodologies and techniques, I excel at designing and executing comprehensive test plans",
+        "Contributed to Agile development processes by participating in sprint planning, daily stand-ups, and retrospective meetings, fostering continuous improvement of development workflows and practice",
+      ],
     },
     {
       type: "experience",
       title: "Software Test Engineer",
       company: "Tech Mahindra",
       period: "July 2012 - Sep 2015",
-      description:
-        "Proficiency in software testing methodologies such as black-box testing, white-box testing, and regression testing. Experience with test management tools like HP ALM, Jira, or TestRail",
+      description: [
+        "Collaborated with developers and stakeholders to prioritize and resolve issues, ensuring timely verification of bug fixes and alignment with project goals",
+        "Proficiency in software testing methodologies such as black-box testing, white-box testing, and regression testing",
+      ],
     },
   ];
 

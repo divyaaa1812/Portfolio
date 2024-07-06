@@ -31,7 +31,12 @@ const Carousel = ({ items }) => {
                   <span className="company-text"> at {item.company}</span>
                 </h3>
                 <p>{item.period}</p>
-                <p className="description">{item.description}</p>
+                <ul>
+                  {item.description.map((point, index) => (
+                    <li key={index}>{point}</li>
+                  ))}
+                </ul>
+                {/* <p className="description">{item.description}</p> */}
               </>
             )}
             {item.type === "education" && (
