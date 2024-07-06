@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1fcd8fdf.css",
-    "main.js": "/Portfolio/static/js/main.2ff63a14.js",
+    "main.css": "/Portfolio/static/css/main.981a3106.css",
+    "main.js": "/Portfolio/static/js/main.43f7632b.js",
     "static/media/divya-pic.png": "/Portfolio/static/media/divya-pic.4c3cc9bbfad36f4e4a75.png",
     "static/media/divyaprofile.png": "/Portfolio/static/media/divyaprofile.68711baa4fcf87fff375.png",
     "static/media/Kanit-Black.ttf": "/Portfolio/static/media/Kanit-Black.ff456266a65e712bce54.ttf",
@@ -15,11 +15,11 @@
     "static/media/fb.svg": "/Portfolio/static/media/fb.57e2641c9134fba2581abc190f32db02.svg",
     "static/media/close.svg": "/Portfolio/static/media/close.f3a8ffd4b69ddd751b23791a8b7e318f.svg",
     "static/media/menu.svg": "/Portfolio/static/media/menu.0a6ddfdbe436047db1e6efac25300f09.svg",
-    "main.1fcd8fdf.css.map": "/Portfolio/static/css/main.1fcd8fdf.css.map",
-    "main.2ff63a14.js.map": "/Portfolio/static/js/main.2ff63a14.js.map"
+    "main.981a3106.css.map": "/Portfolio/static/css/main.981a3106.css.map",
+    "main.43f7632b.js.map": "/Portfolio/static/js/main.43f7632b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fcd8fdf.css",
-    "static/js/main.2ff63a14.js"
+    "static/css/main.981a3106.css",
+    "static/js/main.43f7632b.js"
   ]
 }
