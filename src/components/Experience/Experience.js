@@ -6,7 +6,7 @@ const Experience = () => {
     {
       type: "experience",
       title: "Software Development Engineer in Test",
-      company: "Walmart labs",
+      company: "Walmart Labs",
       period: "Feb 2024 - Current",
       description: [
         "Developed automated test scripts using typescript to test web applications, resulting in a 30% reduction in testing time",
